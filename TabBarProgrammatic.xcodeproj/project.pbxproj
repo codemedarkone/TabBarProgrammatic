@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		834BB7852113E3A00072069F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834BB7842113E3A00072069F /* AppDelegate.swift */; };
-		834BB7872113E3A00072069F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834BB7862113E3A00072069F /* ViewController.swift */; };
+		834BB7872113E3A00072069F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834BB7862113E3A00072069F /* MainTabBarController.swift */; };
 		834BB78A2113E3A00072069F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834BB7882113E3A00072069F /* Main.storyboard */; };
 		834BB78C2113E3A00072069F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834BB78B2113E3A00072069F /* Assets.xcassets */; };
 		834BB78F2113E3A00072069F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834BB78D2113E3A00072069F /* LaunchScreen.storyboard */; };
+		834BB7972113E49F0072069F /* FavoritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834BB7962113E49F0072069F /* FavoritesController.swift */; };
+		834BB79B2113E5A50072069F /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834BB79A2113E5A50072069F /* VideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		834BB7812113E3A00072069F /* TabBarProgrammatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarProgrammatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		834BB7842113E3A00072069F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		834BB7862113E3A00072069F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		834BB7862113E3A00072069F /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		834BB7892113E3A00072069F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		834BB78B2113E3A00072069F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		834BB78E2113E3A00072069F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		834BB7902113E3A00072069F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834BB7962113E49F0072069F /* FavoritesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesController.swift; sourceTree = "<group>"; };
+		834BB79A2113E5A50072069F /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				834BB7842113E3A00072069F /* AppDelegate.swift */,
-				834BB7862113E3A00072069F /* ViewController.swift */,
+				834BB7862113E3A00072069F /* MainTabBarController.swift */,
 				834BB7882113E3A00072069F /* Main.storyboard */,
 				834BB78B2113E3A00072069F /* Assets.xcassets */,
 				834BB78D2113E3A00072069F /* LaunchScreen.storyboard */,
 				834BB7902113E3A00072069F /* Info.plist */,
+				834BB7962113E49F0072069F /* FavoritesController.swift */,
+				834BB79A2113E5A50072069F /* VideoViewController.swift */,
 			);
 			path = TabBarProgrammatic;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				834BB7872113E3A00072069F /* ViewController.swift in Sources */,
+				834BB7872113E3A00072069F /* MainTabBarController.swift in Sources */,
 				834BB7852113E3A00072069F /* AppDelegate.swift in Sources */,
+				834BB79B2113E5A50072069F /* VideoViewController.swift in Sources */,
+				834BB7972113E49F0072069F /* FavoritesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
